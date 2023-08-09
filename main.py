@@ -10,6 +10,6 @@ transcribe_dir = './transcribe/'
 transcribe_model = "medium" # Openai whisper transcribe model. Possible values: tiny, base, small, medium, large
 final_filename = './transcribed_output.txt'
 
-split_audio(wavfile, length_of_chunk, overlap_millis, chunks_dir)
-transcribe_and_save(chunks_dir, transcribe_dir, model_name=transcribe_model)
-concentrate_files(transcribe_dir, final_filename)
+#split_audio(wavfile, length_of_chunk, overlap_millis, chunks_dir)
+#transcribe_and_save(chunks_dir, transcribe_dir, model_name=transcribe_model)
+concatenate_files(transcribe_dir, final_filename)
